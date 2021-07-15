@@ -1,0 +1,65 @@
+$margin150 : 150px;
+$top_radius : 300px;
+$bottom_radius : 400px;
+$v_height : 90vh;
+$l_blue : #2d84e0;
+
+// .form_login {
+//     display: table-cell;
+//     text-align: center;
+//     vertical-align: middle;
+//  }
+
+// .first_col{
+//     margin-top: $margin150;
+// }
+.second_col{
+    border-top-left-radius: $top_radius;
+    border-bottom-left-radius: $bottom_radius;
+    ////opacity: 1.5;
+    height: inherit;
+    //background-image: url(../../../assets/img/Beach-Destinations-in-Asia.jpg);
+}
+.f_length{
+    height: $v_height;
+}
+.bg_color{
+    background-color: #daebf5;
+}
+.bg-img{
+    height: $v_height;
+    width: 540px;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 340px;
+}
+.position{
+    position: absolute;
+}
+.btn-color{
+    background-color: $l_blue;
+}
+.c-span{
+    color: $l_blue;
+}
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  .chat{
+      //position: relative;
+    //   border: 2px solid black;
+     // z-index: -1;
+     position: absolute;
+    margin-top: 350px;
+    background-color: $l_blue;
+    border-radius: circle;
+    color: white;
+    padding: 8px;
+  }
+  .text-t{
+    font-family: revert;
+    font-size: 31px;
+  }
